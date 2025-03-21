@@ -4,6 +4,9 @@ import { ProductModule } from './product/product.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideHttpClient } from '@angular/common/http';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +16,8 @@ import { provideHttpClient } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     ProductModule,
-    
+    MatToolbarModule,
+    MatButtonModule
     
   ],
   providers: [
