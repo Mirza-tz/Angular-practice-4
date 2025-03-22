@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { provideHttpClient } from '@angular/common/http';
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatButtonModule} from '@angular/material/button';
+import { CartModule } from './cart/cart.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
     ProductModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    CartModule
     
   ],
   providers: [
